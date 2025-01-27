@@ -14,6 +14,7 @@ use Symfony\Component\Console\Output\OutputInterface;
     name: 'app:add-sample-data',
     description: 'Add a sample data for your dbs',
 )]
+
 class AddSampleDataCommand extends Command
 {
     protected static string $defaultName = 'app:add-sample-data';
