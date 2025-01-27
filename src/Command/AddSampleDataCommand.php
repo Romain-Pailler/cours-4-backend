@@ -16,9 +16,9 @@ use Symfony\Component\Console\Output\OutputInterface;
 )]
 class AddSampleDataCommand extends Command
 {
-    protected static $defaultName = 'app:add-sample-data';
+    protected static string $defaultName = 'app:add-sample-data';
 
-    private $entityManager;
+    private EntityManagerInterface $entityManager;
 
     public function __construct(EntityManagerInterface $entityManager)
     {
